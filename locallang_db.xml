@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'estimator'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_estimator_task">Estimator - Task Time</label>
+			<label index="tx_estimator_task.taskname">Task Name</label>
+			<label index="tx_estimator_task.duration">duration</label>
+			<label index="tx_estimator_task.category">Category</label>
+			<label index="tx_estimator_tpl">Estimation Templates</label>
+			<label index="tx_estimator_tpl.tplname">Estimate Name</label>
+			<label index="tx_estimator_tpl.estimates">Estimates</label>
+			<label index="tx_estimator_cat">Estimation Categories</label>
+			<label index="tx_estimator_cat.category">Category Name</label>
+			<label index="tx_estimator_cat.shortname">Shortname Name(Optional - Displayed as Tab Header)</label>
+			<label index="tt_content.list_type_pi1">Estimations</label>
+		</languageKey>
+	</data>
+</T3locallang>

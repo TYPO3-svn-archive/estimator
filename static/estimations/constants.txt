@@ -1,0 +1,21 @@
+plugin.tx_estimator_pi1 {
+
+	# cat=plugin.estimator; type=string; label= Library To Use: Specify the library to use jquery/mootools/prototype
+	libraryToUse = jquery
+	
+	# cat=plugin.estimator; type=integer; label= PID of Page/sysFolder: Specify the pid where estimations are stored
+	pidList = 
+	
+	# cat=plugin.estimator; type=string; label= Recursive: Specify whether to look for sub-pages
+	recursive = 0
+	
+	# cat=plugin.estimator; type=string; label= Command: Specify either singleView or listView
+	CMD = 		
+	
+	# cat=plugin.estimator; type=integer; label= Results at a time: Specify the number of records to show at a time
+	listViewResults_at_a_time = 10
+	
+	# cat=plugin.estimator; type=string; label= Max Pages
+	listViewMaxPages = 10
+
+}

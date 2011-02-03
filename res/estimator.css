@@ -1,0 +1,48 @@
+.tx_estimator_pi1{
+	font-size:.7em;
+}
+
+.task-item{
+	margin:10px 0px;
+	clear:both;
+	height:20px;
+	border-bottom:1px solid #D5D5D5;
+	background:#F4F4F4;
+}
+.task-item-selected{
+	background:#E0EDCC !important;
+}
+.task-item span{
+	height:20px;
+}
+.task-title{
+	display:block;
+	float:left;
+	width:300px;
+}
+.task-template-selector{
+	float:left;
+}
+.duration, .estimator-input{
+	width:20px;
+	border:none;
+	margin:0px 10px;
+	padding:0px 4px;
+	text-align:right;
+	height:14px;
+	line-height:14px;
+	font-size:12px;
+}
+.task-duration{
+	float:left;
+}
+.additem , .addtemplateitems{	
+	float:left;	
+	cursor:pointer;
+}
+.estimator-label{
+	width:200px;
+	float:left;
+	display:block;
+	clear:left;
+}

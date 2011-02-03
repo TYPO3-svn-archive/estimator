@@ -1,0 +1,113 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="generator" content="TYPO3 4.4 CMS" />
+<link type="text/css" href="jQuery/css/ui-lightness/jquery-ui-1.8.9.custom.css" rel="stylesheet" />
+<link type="text/css" href="estimator.css" rel="stylesheet" />	
+<script src="jQuery/js/jquery-1.4.4.min.js" type="text/javascript"></script>
+<script src="jQuery/js/jquery-ui-1.8.9.custom.min.js" type="text/javascript"></script>
+<script src="estimator.js" type="text/javascript"></script>
+
+<title>Create An Estimate &#124; CWS 4.4 Test </title>
+	
+</head>
+<body>
+
+<div class="tx_estimator_pi1">
+
+	<div class="estimator-accordion">
+		<h3><a href="#">Estimation Templates</a></h3>
+			<div class="estimator_templates">				
+				<select class="task-template-selector" name="estimator_templates">
+					<option value="2,3,4,6" >PSD to HTML - Single Page - With Typo3 Integration </option>
+					<option value="3,4,6" >Typo3 Integration - Single Page </option>
+					<option value="1,2" >PSD to HTML Only </option>
+				</select>
+				<span class="addtemplateitems ui-icon ui-icon-check" title="Aply this template">
+			</div>
+			
+		<h3><a href="#">Estimation - Tasks</a></h3>
+			<div class="estimator_tabs">
+				<ul>
+					<li><a href="#tabs-1">HTML / CSS</a></li>
+					<li><a href="#tabs-2">TYPO3</a></li>
+					<li><a href="#tabs-3">Extensions</a></li>			
+				</ul>
+				<div id="tabs-1">
+					<div id="estimator-task-item-1" class="task-item"><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span> <span class="task-title">PSD to HTML - Single Page [Table-Less] </span><span class="task-duration"><input type="text" class="duration" value="2" />Hours</span><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span></div>
+					<div id="estimator-task-item-2" class="task-item"><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span> <span class="task-title">PSD to HTML - Two Pages [Table-Less] </span><span class="task-duration"><input type="text" class="duration" value="6" />Hours</span><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span></div>
+					<div id="estimator-task-item-3" class="task-item"><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span> <span class="task-title">PSD to HTML - Three Pages [Table-Less] </span><span class="task-duration"><input type="text" class="duration" value="8" />Hours</span><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span></div>		
+				</div>
+				<div id="tabs-2">
+					<div id="estimator-task-item-4" class="task-item"><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span> <span class="task-title">PSD to HTML - Single Page [Table-Less] </span><span class="task-duration"><input type="text" class="duration" value="4" />Hours</span><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span></div>
+					<div id="estimator-task-item-5" class="task-item"><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span> <span class="task-title">PSD to HTML - Two Pages [Table-Less] </span><span class="task-duration"><input type="text" class="duration" value="6" />Hours</span><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span></div>
+					<div id="estimator-task-item-6" class="task-item"><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span> <span class="task-title">PSD to HTML - Three Pages [Table-Less] </span><span class="task-duration"><input type="text" class="duration" value="10" />Hours</span><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span></div>
+				</div>
+				<div id="tabs-3">
+					<div id="estimator-task-item-7" class="task-item"><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span> <span class="task-title">PSD to HTML - Single Page [Table-Less] </span><span class="task-duration"><input type="text" class="duration" value="4" />Hours</span><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span></div>
+					<div id="estimator-task-item-8" class="task-item"><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span> <span class="task-title">PSD to HTML - Two Pages [Table-Less] </span><span class="task-duration"><input type="text" class="duration" value="8" />Hours</span><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span></div>
+					<div id="estimator-task-item-9" class="task-item"><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span> <span class="task-title">PSD to HTML - Three Pages [Table-Less] </span><span class="task-duration"><input type="text" class="duration" value="10" />Hours</span><span class="additem ui-icon ui-icon-plusthick" title="Add This Task">&nbsp;</span></div>
+				</div>
+			</div>
+	</div>
+
+	<div class="estimator-accordion-summary">
+		<h3><a href="#">Estimation Totals &amp; Preview</a></h3>
+		<div class="estimator_tabs">
+			<ul>
+				<li><a href="#tabs-estimator-total">Estimation Totals</a></li>
+				<li><a href="#tabs-estimator-preview-html">Preview HTML</a></li>
+				<li><a href="#tabs-estimator-preview-plain">Preview Plain Text</a></li>			
+				<li><a href="#tabs-estimator-config">Configurations</a></li>			
+			</ul>			
+			<div id="tabs-estimator-total" class="estimator-selection-overview">													
+				<label class="estimator-label">Non Chargeable Hours:		</label>
+				<input type="text" class="estimator-nonchargedhours estimator-input" name="estimator_totalhours" value="0" />
+				<br />
+				<label class="estimator-label">Total Hours:</label>
+				<input type="text" class="estimator-totalhours estimator-input" readonly="readonly" name="estimator_totalhours" value="" />
+				<br />
+				<label class="estimator-label">Total Chargeable Hours: 		</label>
+				<input type="text" class="estimator-totalchargedhours estimator-input" readonly="readonly" name="estimator_totalchargedhours" value="" />
+				<br />
+				<label class="estimator-label">Total Days: </label>
+				<input type="text" class="estimator-totaldays estimator-input" readonly="readonly" name="estimator_totaldays" value="" />		
+				<br />
+				<br />
+				<button class="estimator-prepare-mail" name="estPrepareMail">Generate/Update Preview(s)</button>
+				<button class="estimator-prepare-mail" name="estPrepareMail">Prepare E-Mail</button>
+			</div>
+			<div id="tabs-estimator-preview-html">	pending	</div>
+			<div id="tabs-estimator-preview-plain">	pending	</div>
+			<div id="tabs-estimator-config">
+				<label class="estimator-label">Average hours Per Day</label>
+				<input type="text" class="hoursPerDay estimator-input" name="hoursPerDay" value="7.5" />
+				<br />
+			</div>
+			
+		</div>
+	</div>
+</div>
+<br />
+<form action="#" method="post">
+	
+	<div>
+		<label>HTML</label>
+		<br />
+		<textarea name="html_output" id="uid10" rows="10" cols="10"></textarea>
+	</div>
+	<div>
+		<label>Plain text</label>
+		<br />
+		<textarea name="plain_output" id="uid11" rows="10" cols="10" ></textarea>
+	</div>
+	<br />
+	<input type="submit" name="estSubmit" value ="Submit this estimate" />
+</form>
+
+</body>
+</html>
